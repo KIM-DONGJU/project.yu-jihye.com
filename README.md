@@ -1,1 +1,4 @@
-# yu-jihye.com 사이트 코드 공유 및 Bootstrap 기반의 코드를 banilla javascript version으로 변환할 예정
+# yu-jihye.com 
+
+1. 기존 Bootstrap 기반으로 외주맡아 작업한 Portpolio site
+2. 위 사이트를 Banilla Javascript 코드로 변환할 예정
