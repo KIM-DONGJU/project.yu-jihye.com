@@ -1,0 +1,49 @@
+@font-face{
+    font-family: "Helve";
+    src: url("../../assets/fonts/helvetica-rmagid/HelveticaLTStd-Bold.otf");
+}
+
+@font-face{
+    font-family: "title";
+    src: url("../../assets/fonts/helvetica-rmagid/HelveticaLTStd-Light.otf");
+}
+
+@font-face{
+    font-family: "subtitle";
+    src: url("../../assets/fonts/S-Core_Dream_OTF/SCDream4.otf");
+}
+
+@font-face{
+    font-family: "text";
+    src: url("../../assets/fonts/S-Core_Dream_OTF/SCDream2.otf");
+    
+}
+
+nav ul li a, h1, h2, h3, h4, h5, p {
+    font-family: "text";
+    font-weight: bold;
+    font-size: 1vw;
+    color: rgb(241, 213, 214);
+}
+
+.content_title {
+    text-align: center; 
+    margin-top:12vh; 
+    font-family: "title";
+    font-size: 2.5vw;
+    color: rgb(214, 174, 174);
+}
+
+.content_title2 {
+    text-align: center; 
+    margin-bottom: 2vh; 
+    font-weight: 100; 
+    font-size: 2vw; 
+    color: rgb(240,208,206)
+}
+
+.content_subtitle {
+    font-family: "subtitle";
+    font-size: 1.5vw;
+    color: rgb(214, 174, 174);
+}
