@@ -1,26 +1,26 @@
 @font-face{
     font-family: "nav";
-    src: url("assets/fonts/Gotham/Gotham-Medium.ttf");
+    src: url("../fonts/Gotham/Gotham-Medium.ttf");
 }
 
 @font-face{
     font-family: "GothamR";
-    src: url("assets/fonts/Gotham/GothamRnd-Book.otf");
+    src: url("../fonts/Gotham/GothamRnd-Book.otf");
 }
 
 @font-face{
     font-family: "GothamB";
-    src: url("assets/fonts/Gotham/Gotham-Bold.ttf");
+    src: url("../fonts/Gotham/Gotham-Bold.ttf");
 }
 
 @font-face{
     font-family: "SCDreamR";
-    src: url("assets/fonts/S-Core_Dream_OTF/SCDream2.otf");
+    src: url("../fonts/S-Core_Dream_OTF/SCDream2.otf");
 }
 
 @font-face{
     font-family: "AppleGothicR";
-    src: url("assets/fonts/Sandol/AppleSDGothicNeoR.ttf");   
+    src: url("../fonts/Sandol/AppleSDGothicNeoR.ttf");   
 }
 
 html,
