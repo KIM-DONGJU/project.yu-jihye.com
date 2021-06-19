@@ -1,0 +1,36 @@
+@font-face {
+  font-family: "nav";
+  src: url("../fonts/Gotham/Gotham-Medium.ttf");
+}
+
+nav {
+  position: relative;
+  max-width: 100%;
+  margin-top: 1%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2vw;
+}
+
+nav > img {
+  width: 20%;
+}
+
+nav .link {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 2vw;
+}
+
+.link a {
+  color: rgb(184, 170, 170);
+  text-decoration: none;
+  font-family: "nav";
+  font-size: 1.5vw;
+}
+
+.link a:hover {
+  color: rgb(252, 236, 237);
+}
