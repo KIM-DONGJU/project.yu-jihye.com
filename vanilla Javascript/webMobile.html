@@ -22,7 +22,7 @@
             &lt;
         </button>
         <div class="contents">
-            <div class="images">
+            <div class="images first">
                 <img src="assets/images/slide/webMobile/slide6.jpg">
             </div>
             <div class="images">
@@ -43,7 +43,7 @@
             <div class="images">
                 <img src="assets/images/slide/webMobile/slide6.jpg">
             </div>
-            <div class="images">
+            <div class="images last">
                 <img src="assets/images/slide/webMobile/slide1.jpg">
             </div>
         </div>
@@ -51,22 +51,63 @@
             &gt;
         </button>
     </section>
+    <script type="text/javascript" src="assets/js/webMobileSlider.js"></script>
 </body>
 </html>
 
 <style>
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
 .web-mobile-design {
+    position: relative;
+    margin-top: 50px;
     width: 100%;
-    min-width: 280px;
+    overflow: hidden;
+}
+
+.contents {
+  transform: translate(-12.5%);
+  width: calc(800%);
 }
 
 .contents .images {
-    width: 100%;
+    width: 12.5%;
+    float: left;
 }
 
 .images img {
     width: 100%;
 }
 
+
+.web-mobile-design button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    background-color: unset;
+    color: #ffffff;
+    padding: 0;
+    border: none;
+    font-size: 5rem;
+    box-sizing: content-box;
+    z-index: 10;
+}
+
+.next-button {
+    right: 0;
+}
+
+
+@media screen and (max-width: 1164px) {
+  html,
+  body {
+    font-size: 8px;
+  }
+}
 
 </style>
