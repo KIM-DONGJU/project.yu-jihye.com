@@ -13,7 +13,13 @@ nav {
   gap: 2vw;
 }
 
-nav > img {
+nav > a {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+nav > a img {
   width: 20%;
 }
 
