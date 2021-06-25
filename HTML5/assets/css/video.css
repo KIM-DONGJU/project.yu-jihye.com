@@ -1,0 +1,94 @@
+html,
+body {
+  font-size: 10px;
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: "GothamR";
+  src: url("../fonts/Gotham/GothamRnd-Book.otf");
+}
+
+@font-face {
+  font-family: "AppleGothicR";
+  src: url("../fonts/Sandol/AppleSDGothicNeoR.ttf");
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container > article {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  padding: 50px;
+  box-sizing: border-box;
+}
+
+article > div {
+  flex: 1;
+}
+
+article > .video video {
+  width: 100%;
+}
+
+.title {
+  font-family: "GothamR";
+  font-weight: bold;
+  font-size: 2rem;
+  color: rgb(207, 125, 125);
+}
+
+.contents {
+  font-family: "AppleGothicR";
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: rgb(161, 144, 144);
+}
+
+.container article:nth-child(1) {
+  margin-top: 50px;
+  background-color: rgba(255, 199, 221, 0.5);
+}
+
+.container article:nth-child(2) {
+  background-color: rgba(243, 214, 216, 0.443);
+}
+
+.container article:nth-child(3) {
+  background-color: rgba(243, 214, 216, 0.635);
+}
+
+.container article:nth-child(4) {
+  background-color: rgba(222, 184, 184, 0.443);
+}
+
+.container article:nth-child(5) {
+  background-color: rgba(207, 125, 125, 0.396);
+}
+
+.container article:nth-child(6) {
+  background-color: rgba(207, 125, 125, 0.753);
+}
+
+.container article:nth-child(6) .title {
+  color: rgb(209, 102, 102);
+}
+
+.container article:nth-child(6) .contents {
+  color: rgb(168, 106, 106);
+}
+
+@media screen and (max-width: 800px) {
+  .container > article {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
