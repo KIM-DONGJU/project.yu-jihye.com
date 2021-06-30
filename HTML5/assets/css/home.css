@@ -42,7 +42,7 @@ body {
 .application-contents,
 .logo-contents-container {
   width: 80%;
-  min-width: 260px;
+  min-width: 150px;
   max-width: 1164px;
   margin: 0 auto;
   overflow: hidden;
@@ -211,5 +211,10 @@ body {
 
   .application-design {
     padding: 50px 0;
+  }
+
+  .application-design button,
+  .logo-design button {
+    font-size: 3rem;
   }
 }
